@@ -1,3 +1,4 @@
+import { Picker } from '@react-native-picker/picker';
 import{ StyleSheet} from 'react-native'
 
 
@@ -47,6 +48,15 @@ const styles = StyleSheet.create({
     textButtonCalculator:{
         fontSize:20,
         color:"#ffffff"
+    },
+    pickerGender:{
+    width: "90%",
+    borderRadius: 50,
+    backgroundColor: "#f6f6f6",
+    height: 40,
+    margin: 12,
+    overflow: "hidden",  
+
     }
 });
 
